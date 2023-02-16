@@ -326,33 +326,33 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 75%;
+  	width: 100%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .java {
-  	width: 73%;
+  	width: 100%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 
 .sql {
-  	width: 93%;
+  	width: 100%;
   	-moz-animation: sql 2s ease;
   	-webkit-animation: sql 2s ease;
 }
 .powerbi {
-  	width: 90%;
+  	width: 100%;
   	-moz-animation: powerbi 2s ease;
   	-webkit-animation: powerbi 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 100%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 100%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
