@@ -1,877 +1,452 @@
 <!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
-
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<title>Naram Alhasani - Technical Business Analyst</title>
-	<meta name="description" content="Welcome to my personal website, I made this to showcase my resume in a static manner. ">
-	<meta name="author" content="Naram Alhasani">
-
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Naram Alhasani — Systems Architect | Building Complex Systems That Work</title>
+    <meta name="title" content="Naram Alhasani — Systems Architect | Building Complex Systems That Work">
+    <meta name="description" content="Systems Architect and Technical Co-Founder specializing in complex enterprise systems, construction technology, and AI implementation. Senior Consultant at CGI Federal. Building operational systems that transform how industries work.">
+    <meta name="author" content="Naram Alhasani">
+    <meta name="keywords" content="systems architect, technical co-founder, CTO, enterprise systems, construction technology, AI implementation, complex systems, software architecture, operational systems, CGI Federal, Formwork, MATTER platform">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://naramalhasani.com/">
+    <meta property="og:title" content="Naram Alhasani — Systems Architect">
+    <meta property="og:description" content="Building complex systems that actually work. Senior Consultant at CGI Federal. Technical Co-Founder at Formwork.">
+    <meta property="og:image" content="https://naramalhasani.com/images/profilepic1.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://naramalhasani.com/">
+    <meta property="twitter:title" content="Naram Alhasani — Systems Architect">
+    <meta property="twitter:description" content="Building complex systems that actually work. Senior Consultant at CGI Federal. Technical Co-Founder at Formwork.">
+    <meta property="twitter:image" content="https://naramalhasani.com/images/profilepic1.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://naramalhasani.com/">
+    
+    <!-- Structured Data for AEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Naram Alhasani",
+        "url": "https://naramalhasani.com",
+        "image": "https://naramalhasani.com/images/profilepic1.jpg",
+        "jobTitle": ["Systems Architect", "Technical Co-Founder", "Senior Consultant"],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "CGI Federal",
+                "url": "https://www.cgi.com/us/en-us/federal"
+            },
+            {
+                "@type": "Organization",
+                "name": "Formwork",
+                "description": "Revenue operations firm for commercial construction"
+            }
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "James Madison University"
+        },
+        "knowsAbout": [
+            "Systems Architecture",
+            "Enterprise Software",
+            "Construction Technology",
+            "AI/ML Implementation",
+            "Complex Systems Design",
+            "Full-Stack Development",
+            "Operational Systems",
+            "Government Systems",
+            "SaaS Development"
+        ],
+        "sameAs": [
+            "https://linkedin.com/in/NaramAlhasani"
+        ],
+        "description": "Systems Architect specializing in building complex enterprise systems and construction technology platforms. Technical Co-Founder building operational systems that transform how industries work."
+    }
+    </script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
 </head>
-
 <body>
+    <!-- Navigation -->
+    <nav class="nav" role="navigation">
+        <a href="#hero" class="nav-logo">NA</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#systems">Systems</a>
+            <a href="https://linkedin.com/in/NaramAlhasani" target="_blank" rel="noopener" class="nav-cta">LinkedIn</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <li><a class="smoothscroll" href="#call-to-action">Future Goals</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <!--<li><a class="smoothscroll" href="#contact">Contact</a></li>-->
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Naram Alhasani</h1>
-            <h3>A Virginia based <span>Technical Analyst</span>, with a B.B.A. in <span>Computer Information Systems</span> from <span>James Madison University,</span> creating effecient and effective technical 
-		    solutions for clients. <a class="smoothscroll" href="#about">learn more</a>
-             <a class="smoothscroll" href="#about">about me!</a></h3>
-            <hr />
-            <ul class="social">
-               <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-               <li><a href="http://www.linkedin.com/in/NaramAlhasani"><i class="fa fa-linkedin"></i></a></li>
-               
-               
-               
-            </ul>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#systems">Systems</a>
+            <a href="https://linkedin.com/in/NaramAlhasani" target="_blank" rel="noopener">LinkedIn</a>
          </div>
       </div>
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/profilepic1.jpg" alt="" />
-
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-eyebrow reveal">
+                <span class="line"></span>
+                <span>Virginia, USA</span>
          </div>
-
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>I am a Business Analyst at CGI Federal, and a recent graduate of James Madison University with a BBA in Computer Information Systems. My passion for technology began in 2010 when I moved to the United States and quickly learned English, where I built my first computer and have been pursuing my love for technology ever since.<br><br>
-
-Throughout my studies, I have gained a wealth of knowledge in computer systems and data analysis, which I am excited to showcase in my future endeavors. In addition to my academic background, I have a diverse work experience, starting as a lifeguard at 15 and quickly climbing the ranks to become the facility manager where I was responsible for managing many aquatic facilities over time. Through experiences such as this, I have strengthened my communication and leadership skills and am confident in my ability to take on new challenges and responsibilities.
-		    <br><br>
-
-I am a continuous learner, with a deep interest in exploring new topics and expanding my skillset. I am eager to apply my knowledge and abilities to solve problems and make a positive impact in my field. Currently, I am building an automated advertising application using Python and various AI models, hoping to release later this year! Please feel free to download my resume and contact me via phone or email for any further information. Thank you for visiting my website!
-             
+            <h1 class="hero-title">
+                <span class="reveal-word">Naram</span>
+                <span class="reveal-word">Alhasani</span>
+            </h1>
+            <p class="hero-subtitle reveal">
+                <span class="accent">Systems Architect</span> — Building technology that makes complex operations simple.
             </p>
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p class="address">
-						   <span>Naram Alhasani</span><br>
-						   <span>Fairfax County,
-                                Virginia   
-                     </span><br>
-						   <span>(734) 578-4216</span><br>
-                     <span>alhasans@dukes.jmu.edu</span>
-					   </p>
-
+            <div class="hero-roles reveal">
+                <span>Senior Consultant @ CGI Federal</span>
+                <span class="separator">·</span>
+                <span>Technical Co-Founder @ Formwork</span>
                </div>
-
-               <div class="columns download">
-                  <p>
-                     <a href="NaramAlhasaniResume.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                  </p>
                </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
       </div>
+        <div class="hero-year">©2026</div>
+    </section>
 
-   </section> <!-- About Section End-->
-
-
-   <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-      <!-- Education
-      ----------------------------------------------- -->
-      <div class="row education">
-
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-grid">
+            <div class="section-label reveal">
+                <span class="label-number">01</span>
+                <span class="label-text">About</span>
          </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>James Madison University</h3>
-                  <p class="info">B.B.A Computer Information Systems and Business Analytics<span>&bull;</span> <em class="date">May 2023</em></p>
-
-                  <p>
-                  I recently graduated from James Madison University with a degree in CIS, with coursework related to Database design and Implementation, 
-                      Intermediate Programming with Java and Python, Business Intelligence and Data Analysis, Systems Analysis and Design, Business Law
-                      as well as many others. Throughout my time here at JMU, I have been able to grow my skills tremendously and build long lasting relationships with 
-                      peers and mentors which I will cherish for a long time to come!
-
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
-            
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Education -->
-
-
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row work">
-
-         <div class="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-                 <div class="twelve columns">
-
-                     <h3>CGI Federal</h3>
-                     <p class="info">Business Analyst=<span>&bull;</span> <em class="date">June 2022- Current</em></p>
-
-                     <p>
-                         I am currently a Technical Business Analyst supporting a client of CGI in the development of a highly specialized information System. My duties involve requirements gathering,
-                          systems analysis, client communication, regression testing, query analysis, storyboarding as well as creating and maintining technical documentation.
-                     </p>
-
-                 </div>
-
-             </div> <!-- item end -->
-
-             <div class="row item">
-
-                 <div class="twelve columns">
-
-                     <h3>CGI Federal</h3>
-                     <p class="info">Business Analyst Intern<span>&bull;</span> <em class="date">May-August 2022</em></p>
-
-                     <p>
-                         Delivered a high level Go-To-Market Strategy Dashboard effective in communicating status of tracking and tasking derived from GTMS framework
-                         activities, including effective stakeholder metrics and points of interest to be utilized as a functional decision making tool. In order to accomplish this
-                         I used the Atlassian JIRA Project management API to extract GTMS Data, and through that I was able to develop a high level powerBI dashboard functional in displaying metrics collected in real time. During this time, 
-                         I was also responsible for assisting in Executing technical aspects of Feasibility Studies on emerging technologies.
-                     </p>
-
-                 </div>
-
-             </div> <!-- item end -->
-
-             <div class="row item">
-
-                 <div class="twelve columns">
-
-                     <h3>James Madison University Recreation</h3>
-                     <p class="info">Aquatics Staff Manager <span>&bull;</span> <em class="date">December 2020 - November 2021</em></p>
-
-                     <p>
-                         During my time at University Recreation, I worked with a large team of lifeguards where I was responsible for Scheduling, Event Programming,
-                         Creating Staff Forms, In service Trainings, as well as the certification of lifeguards through The Red Cross. I began as a Lifeguard, then became an 
-                         on deck manager and later took on the position of Staff Manager.
-                     </p>
-
-                 </div>
-
-             </div> <!-- item end -->
-
-             <div class="row item">
-
-                 <div class="twelve columns">
-
-                     <h3>NV Pools</h3>
-                     <p class="info">Still Pond Facility (Lifeguard/Head Lifeguard/Staff Manager) <span>&bull;</span> <em class="date">May 2016 - Sept 2020</em></p>
-
-                     <p>
-                         Working with NV Pools was my first job at age 15, I quickly climbed through the ranks and obtained required certifications. When I became a certified Pool Operator
-                         at age 16, I began to balance and maintain chemical safety as the person responsible for the facility during the absence of the manager. I later became Head Lifeguard and eventually 
-                         Manager of the Facility for two years. During this time, I was also a certified Lifeguard Instructor, where I was also training and certifying future lifeguards, as well as teaching swim lessons
-                         and organizing neighborhood group lessons.
-
-                     </p>
-
-                 </div>
-
-             </div> <!-- item end -->
-
-         </div> <!-- main-col end -->
-
-      </div> <!-- End Work -->
-
-
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
-
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div class="nine columns main-col">
-
-            <p>During my time at James Madison University, and CGI Federal, I have been able to really strengthen my functional and technical skills,
-             here are a few:
-            </p>
-
-				<div class="bars">
-
-                    <ul class="skills">
-                        <li><span class="bar-expand photoshop"></span><em>Python</em></li>
-                        <li><span class="bar-expand java"></span><em>Java</em></li>
-                        <li><span class="bar-expand html5"></span><em>C#</em></li>
-                        <li><span class="bar-expand powerbi"></span><em>PowerBI</em></li>
-                        <li><span class="bar-expand sql"></span><em>SQL</em></li>
-                        <li><span class="bar-expand html5"></span><em>Systems Analysis</em></li>
-                        <li><span class="bar-expand html5"></span><em>Feasibility Analysis</em></li>
-			<li><span class="bar-expand html5"></span><em>Market Research</em></li>
-			<li><span class="bar-expand html5"></span><em>.NET</em></li>
-			<li><span class="bar-expand html5"></span><em>Web Development</em></li>     
-                        
-                    </ul>
-
-				</div><!-- end skill-bars -->
-
-			</div> <!-- main-col end -->
-
-      </div> <!-- End skills -->
-
-   </section> <!-- Resume Section End-->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Here are a couple of my works!</h1>
-
-            <!-- portfolio-wrapper -->
-            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf" >
-
-          	   <div class="columns portfolio-item" style="margin-left:25%;">
-                  <div class="item-wrap" >
-
-                     <a href="https://yumworldwide.com" title="YUM Website">
-                        <img alt="" src="images/YumLogo.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>YUM Website</h5>
-                              <p>This was a website that I developed for the digital marketing agency, YUM. This goes to show that although Web development was not a large part of my college studies, I am more than happy to learn new skills!
-                              </p>
+            <div class="section-content">
+                <div class="about-intro">
+                    <img src="images/profilepic1.jpg" alt="Naram Alhasani" class="about-photo reveal">
+                    <div class="about-text-block">
+                        <h2 class="section-heading reveal">
+                            Building systems that<br>
+                            <em>actually work.</em>
+                        </h2>
+                        <div class="about-text">
+                            <p class="reveal">
+                                I'm a Senior Consultant at CGI Federal and a technical co-founder building systems for the construction industry. My work spans enterprise government systems and startup product development—I like building things that make complex operations simple.
+                            </p>
+                            <p class="reveal">
+                                When I'm not architecting platforms, I'm probably deep in a problem I haven't solved yet.
+                            </p>
+                        </div>
           					   </div>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                <div class="about-details reveal">
+                    <div class="detail">
+                        <span class="detail-label">Origin</span>
+                        <span class="detail-value">Iraq → Virginia, 2010</span>
                   </div>
-          		</div> <!-- item end -->
-                <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="https://mattlabar.github.io" title="Matt Labar Website">
-                        <img alt="" src="images/mlFav.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Matt Labar</h5>
-                              <p>This was as site that I developed for Industrial Designer, Matt Labar. This was my first project outside of my own website!
-                              </p>
+                    <div class="detail">
+                        <span class="detail-label">Education</span>
+                        <span class="detail-value">B.B.A. Computer Information Systems<br>James Madison University, 2023</span>
           					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="https://talaphoto.com" title="Tala Alhasani's Website">
-                        <img alt="" src="images/talaAlhasani.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Tala Alhasani</h5>
-                              <p>This is a site I developed for my sister, Tala, who is a photogrepher. Enjoy!
-                              </p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
             </div>
          </div>
          </div>
          </section>
-               <!--<div class="columns portfolio-item">
-                  <div class="item-wrap">
 
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/console.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="section-grid">
+            <div class="section-label reveal">
+                <span class="label-number">02</span>
+                <span class="label-text">Current Work</span>
           					   </div>
+            <div class="section-content">
+                <div class="work-items">
+                    <article class="work-item reveal">
+                        <div class="work-header">
+                            <h3 class="work-company">CGI Federal</h3>
+                            <span class="work-period">June 2022 — Present</span>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                        <p class="work-role">Senior Consultant</p>
+                        <p class="work-description">
+                            Technical delivery and AI initiatives in the Health Social Services business unit. Initiated AI pilots that resulted in a major contract award. Bringing enterprise consulting rigor to government-scale systems.
+                        </p>
+                        <div class="work-tags">
+                            <span>AI/ML Implementation</span>
+                            <span>Enterprise Systems</span>
+                            <span>Medicare & Medicaid</span>
                   </div>
-          		</div>--> <!-- item end -->
-
-               <!--<div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/judah.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
+                    </article>
+                    
+                    <article class="work-item reveal">
+                        <div class="work-header">
+                            <h3 class="work-company">Formwork</h3>
+                            <span class="work-period">November 2024 — Present</span>
           					   </div>
+                        <p class="work-role">Technical Co-Founder & CTO</p>
+                        <p class="work-description">
+                            Building the entire technical backbone for a revenue operations firm serving commercial construction contractors. Responsible for software systems architecture and strategic decision-making across three business units.
+                        </p>
+                        <div class="work-tags">
+                            <span>Systems Architecture</span>
+                            <span>Construction Tech</span>
+                            <span>Full-Stack Development</span>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                    </article>
+                </div>
+            </div>
                   </div>
-          		</div>--> <!-- item end -->
+    </section>
 
-               <!--<div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
+    <!-- Systems Section -->
+    <section id="systems" class="systems">
+        <div class="section-grid">
+            <div class="section-label reveal">
+                <span class="label-number">03</span>
+                <span class="label-text">What I've Built</span>
           					   </div>
+            <div class="section-content">
+                <p class="section-intro reveal">
+                    Systems designed to bring clarity to complexity. Each one solves a real operational challenge.
+                </p>
+                <div class="systems-grid">
+                    <article class="system-card reveal">
+                        <div class="system-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
+                        <h4 class="system-name">MATTER</h4>
+                        <p class="system-type">Flagship SaaS Platform</p>
+                        <p class="system-desc">
+                            The communication platform for progressive design-build construction. Unifying fragmented contractor tool ecosystems into one system.
+                        </p>
+                        <span class="system-status">In Development · Q2 2026 Launch</span>
+                    </article>
 
-                  </div>
-          		</div>--> <!-- item end -->
-
-               <!--<div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
+                    <article class="system-card reveal">
+                        <div class="system-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
+                        <h4 class="system-name">C0</h4>
+                        <p class="system-type">Central Operations System</p>
+                        <p class="system-desc">
+                            The operational backbone handling client management, invoicing, task tracking, AI-powered assistance, and automated workflows.
+                        </p>
+                        <span class="system-status">Live · Powering Formwork Operations</span>
+                    </article>
 
-                  </div>
-          		</div>--> <!-- item end -->
-
-               <!--<div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/girl.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
-          					   </div>
+                    <article class="system-card reveal">
+                        <div class="system-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
+                        <h4 class="system-name">OutreachSphere</h4>
+                        <p class="system-type">CRM Platform</p>
+                        <p class="system-desc">
+                            Lead tracking, outreach management, and pipeline visibility. Used internally and as client-facing CRM for cold outreach engagements.
+                        </p>
+                        <span class="system-status">Live · Multi-Client Deployment</span>
+                    </article>
 
-                  </div>
-          		</div>--> <!-- item end -->
-
-               <!--<div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/origami.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
-          					   </div>
+                    <article class="system-card reveal">
+                        <div class="system-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="3" y1="9" x2="21" y2="9"/>
+                                <line x1="9" y1="21" x2="9" y2="9"/>
+                            </svg>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
+                        <h4 class="system-name">Delta Portal</h4>
+                        <p class="system-type">Custom Enterprise Solution</p>
+                        <p class="system-desc">
+                            Complete project management platform replacing Procore. RFIs, bidding, contracts, chat, and Autodesk integration.
+                        </p>
+                        <span class="system-status">Live · Lighthouse Client</span>
+                    </article>
 
-                  </div>
-          		</div>--> <!-- item end -->
-
-               <!--<div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/retrocam.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          					   </div>
+                    <article class="system-card reveal">
+                        <div class="system-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 3h18v18H3zM3 9h18M9 21V9"/>
+                                <path d="M14 15l2 2 4-4"/>
+                            </svg>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
+                        <h4 class="system-name">Delta Estimating Portal</h4>
+                        <p class="system-type">Project Pipeline & CRM</p>
+                        <p class="system-desc">
+                            Data management tool tracking estimate schedules and estimators on construction projects. Bid pipeline and CRM for efficient account management.
+                        </p>
+                        <span class="system-status">Live · Delta Construction</span>
+                    </article>
 
-                  </div>
-          		</div>-->  <!-- item end -->
-
-            <!--</div>--> <!-- portfolio-wrapper end -->
-
-         <!--</div>--> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <!--<div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+                    <article class="system-card reveal">
+                        <div class="system-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+                                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+                                <path d="M2 2l7.586 7.586"/>
+                                <circle cx="11" cy="11" r="2"/>
+                            </svg>
+                        </div>
+                        <h4 class="system-name">ContentSphere</h4>
+                        <p class="system-type">Content Management System</p>
+                        <p class="system-desc">
+                            Content management for newsletters, LinkedIn posts, and SEO. AI-powered drafting with dynamic client-specific prompts.
+                        </p>
+                        <span class="system-status">Live · Internal Tool</span>
+                    </article>
 		      </div>
-
-            <div class="link-box">
-               <a href="" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
             </div>
-
-	      </div>--><!-- modal-01 End -->
-
-         <!--<div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
 		      </div>
+    </section>
 
-            <div class="link-box">
-               <a href="" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy">
+        <div class="philosophy-content">
+            <div class="philosophy-quote reveal">
+                <p>A big vision needs strong systems.</p>
             </div>
-
-	      </div>--><!-- modal-02 End -->
-
-         <!--<div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+            <p class="philosophy-text reveal">
+                Focused on scaling technical systems and bringing modern tooling to industries that haven't caught up yet.
+            </p>
 		      </div>
+    </section>
 
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+    <!-- Kind Words Section -->
+    <section id="kind-words" class="kind-words">
+        <div class="section-grid">
+            <div class="section-label reveal">
+                <span class="label-number">04</span>
+                <span class="label-text">Kind Words</span>
             </div>
-
-	      </div>--><!-- modal-03 End -->
-
-         <!--<div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+            <div class="section-content">
+                <div class="testimonials-grid">
+                    <blockquote class="testimonial reveal">
+                        <p class="testimonial-text">
+                            "Naram has demonstrated exceptional technical ability, process, adaptation, and execution on critical development and feasibility study goals. He has been integral in the development of tracking systems and dashboards, automating and displaying team function at an executive level."
+                        </p>
+                        <footer class="testimonial-author">
+                            <span class="author-name">William Hall</span>
+                            <span class="author-role">Director of Emerging IP, CGI Federal</span>
+                        </footer>
+                    </blockquote>
+                    
+                    <blockquote class="testimonial reveal">
+                        <p class="testimonial-text">
+                            "You have shown a speed and ability to solve problems that I have not seen in my students before. The speed at which you are able to pick up new skills is amazing."
+                        </p>
+                        <footer class="testimonial-author">
+                            <span class="author-name">Dr. Dmytro Babik</span>
+                            <span class="author-role">Professor of Information Systems, James Madison University</span>
+                        </footer>
+                    </blockquote>
 		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
             </div>
-
-	      </div>--><!-- modal-04 End -->
-
-         <!--<div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
 		      </div>
+    </section>
 
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="section-grid">
+            <div class="section-label reveal">
+                <span class="label-number">05</span>
+                <span class="label-text">Expertise</span>
             </div>
-
-	      </div>--><!-- modal-05 End -->
-
-         <!--<div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+            <div class="section-content">
+                <div class="expertise-list">
+                    <div class="expertise-item reveal">
+                        <span class="expertise-number">01</span>
+                        <span class="expertise-name">Systems Architecture</span>
+                    </div>
+                    <div class="expertise-item reveal">
+                        <span class="expertise-number">02</span>
+                        <span class="expertise-name">Enterprise Consulting</span>
 		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+                    <div class="expertise-item reveal">
+                        <span class="expertise-number">03</span>
+                        <span class="expertise-name">AI/ML Implementation</span>
             </div>
-
-	      </div>--><!-- modal-06 End -->
-
-         <!--<div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+                    <div class="expertise-item reveal">
+                        <span class="expertise-number">04</span>
+                        <span class="expertise-name">Full-Stack Development</span>
 		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+                    <div class="expertise-item reveal">
+                        <span class="expertise-number">05</span>
+                        <span class="expertise-name">Construction Technology</span>
             </div>
-
-	      </div>--><!-- modal-07 End -->
-
-         <!--<div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
 		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
             </div>
-
-	      </div>--><!-- modal-01 End -->
-
-
-      <!--</div>--> <!-- row End -->
-
-   <!--</section>--> <!-- Portfolio Section End-->
-    
-
-   <!-- Call-To-Action Section
-   ================================================== -->
-   <section id="call-to-action">
-
-      <div class="row">
-
-         <div class="two columns header-col">
-
-            <h1><span></span></h1>
-
          </div>
+    </section>
 
-         <div class="seven columns">
-
-            <h2><span class="lead">Future Learning Track</span></h2>
-            <p><span class="lead">My course work is aimed at strengthening my skills in c#, Network Security, and Systems Design. I am currently working with the .NET6 Framework and Razor pages to create interactive webapps. I am looking to further enhance my knowledge of technical systems, and acquiring required certifications.
-		If youre looking for someone with a similar skillset who is willing to take on new responsibilities,
-                reach out!<br /> <br />Looking forward to meeting all of you!</span></p>
-
-         </div>
-
-         <div class="three columns action">
-
-
-
-         </div>
-
-      </div>
-
-   </section> <!-- Call-To-Action Section End-->
-
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="text-container">
-
-         <div class="row">
-
-            <div class="two columns header-col">
-
-               <h1><span>Testimonials</span></h1>
-
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2 class="contact-heading reveal">Get in touch</h2>
+            <p class="contact-text reveal">
+                Building something complex? Let's talk.
+            </p>
+            <div class="contact-links reveal">
+                <a href="https://linkedin.com/in/NaramAlhasani" target="_blank" rel="noopener" class="contact-link">
+                    <span>LinkedIn</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </a>
+                <a href="mailto:naram@sunrisesystems.co" class="contact-link">
+                    <span>Email</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </a>
             </div>
-
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>Naram has demonstrated exceptional technical ability, process, adaptation, and execution on critical ETAP development and 
-                            feasibility study goals. He has been integral in the development of tracking systems and dashboards, automating and displaying team 
-                            function at an executive level
-                           </p>
-                           <cite>William Hall<br />   Director of Emerging IP <br />   CGI Federal</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>You have shown a speed and ability to solve problems that I have not seen in my students before. The speed at which you are able to pick up new
-                            skills is amazing.
-                           </p>
-                           <cite>Dr. Dmytro Babik<br />   Professor of Information Systems<br />   James Madison University</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Contact Section
-   ================================================== -->
-   <!--<section id="contact">
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1><span>Get In Touch.</span></h1>
-
             </div>
+    </section>
 
-            <div class="ten columns">
-
-                  <p class="lead">
-                  </p>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <span class="footer-name">Naram Alhasani</span>
+                <span class="footer-title">Systems Architect</span>
             </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">-->
-
-               <!-- form -->
-               <!--<form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form>--> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <!--<div id="message-warning"> Error boy</div>-->
-               <!-- contact-success -->
-				   <!--<div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+            <div class="footer-right">
+                <span>©2026</span>
+                <span>Virginia, USA</span>
+            </div>
 				   </div>
+    </footer>
 
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
-					   </p>
-
-				   </div>
-
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                      
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
-            </aside>
-
-      </div>
-
-   </section>--> <!-- Contact Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               
-               <li><a href="http://www.linkedin.com/in/NaramAlhasani"><i class="fa fa-linkedin"></i></a></li>
-               
-            </ul>
-
-            <ul class="copyright">
-               <li>NomsWorks 2022</li>
-               <li>Design by <a href="" title="Styleshout" target="_blank">Naram Alhasani</a></li>   
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
 </body>
-
 </html>
